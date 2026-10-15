@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mamashvidii</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mamashvidii</h1>
+    <button id="openCart">Cart (<span id="count">0</span>)</button>
+  </header>
+
+  <main>
+    <div class="sidebar">
+      <input id="search" type="search" placeholder="Search rare fruits">
+      <div id="categories"></div>
+    </div>
+    <div id="products"></div>
+  </main>
+
+  <aside id="cart">
+    <h2>Your cart</h2>
+    <div id="cartItems"></div>
+    <p>Total: <span id="total">KES 0</span></p>
+    <button id="placeOrder">Place order</button>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
